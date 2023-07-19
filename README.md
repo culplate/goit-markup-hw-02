@@ -1,1 +1,1 @@
-https://culplate.github.io/goit-markup-hw-01/
+https://culplate.github.io/goit-markup-hw-02/
