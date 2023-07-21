@@ -3,22 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="logo">WebStudio</a>
         <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="./index.html" class="nav-links">Studio</a></li>
+          <li><a href="./portfolio.html" class="nav-links">Portfolio</a></li>
+          <li><a href="" class="nav-links">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-links"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="contact-links"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -26,7 +38,7 @@
     <main>
       <section id="solutions">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="order-button">Order Service</button>
       </section>
       <section id="benefits">
         <h2>Benefits</h2>
@@ -93,45 +105,45 @@
       <section id="our-team">
         <h2>Our Team</h2>
         <ul>
-          <li>
+          <li class="cards-container">
             <img
               src="./images/team-img-1.jpg"
               alt="portrait of Mark Guerrero"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="cards-title">Mark Guerrero</h3>
+            <p class="cards-text">Product Designer</p>
           </li>
-          <li>
+          <li class="cards-container">
             <img
               src="./images/team-img-2.jpg"
               alt="portrait of Tom Ford"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="cards-title">Tom Ford</h3>
+            <p class="cards-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="cards-container">
             <img
               src="./images/team-img-3.jpg"
               alt="portrait of Camila Garcia"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="cards-title">Camila Garcia</h3>
+            <p class="cards-text">Marketing</p>
           </li>
-          <li>
+          <li class="cards-container">
             <img
               src="./images/team-img-4.jpg"
               alt="portrait of Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="cards-title">Daniel Wilson</h3>
+            <p class="cards-text">UI Designer</p>
           </li>
         </ul>
       </section>

@@ -1,7 +1,18 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-white-color: #fff;
+  --primary-black-color: #2e2f42;
+  --text-color: #434455;
+  --headline-color: #2e2f42;
+  --border-color: #e7e9fc;
+  --primary-accent-color: #f4f4fd;
+  --secondary-accent-color: #404bbf;
+}
+
 body {
-  font-family: ;
-  color: var();
-  background-color: #fff;
+  font-family: var(--primary-font);
+  color: var(--primary-black-color);
+  background-color: var(--primary-white-color);
 }
 
 li {
