@@ -1,0 +1,13 @@
+body {
+  font-family: ;
+  color: var();
+  background-color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
