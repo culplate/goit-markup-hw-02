@@ -125,11 +125,12 @@ footer {
 }
 
 .filters-btn {
-  background-color: var(--accent-color);
+  background-color: var(--light-color);
   color: var(--primary-brand-color);
 }
 
-.filters-btn:active {
+.filters-btn:hover,
+.filters-btn:focus {
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
 }
@@ -149,6 +150,7 @@ footer {
 
 .cards-text {
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .team-card {
