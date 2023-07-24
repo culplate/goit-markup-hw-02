@@ -30,7 +30,9 @@ ol {
   list-style-type: none;
 }
 
-a {
+a,
+a:hover,
+a:focus {
   text-decoration: none;
   color: var(--text-color);
   font-style: normal;
@@ -79,7 +81,7 @@ footer {
   background-color: var(--dark-color);
 }
 
-.our-team {
+.our-team-section {
   background-color: var(--light-color);
 }
 
@@ -126,5 +128,9 @@ footer {
 }
 
 .footer-text {
+  color: var(--light-color);
+}
+
+footer .logo {
   color: var(--light-color);
 }
