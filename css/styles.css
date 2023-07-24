@@ -72,6 +72,7 @@ body {
 
 .contacts .link {
   font-weight: 400;
+  color: var(--text-color);
 }
 
 .nav-links {
@@ -84,7 +85,7 @@ body {
 
 .nav-links:hover,
 .nav-links:focus {
-  color: var(--primary-brand-color);
+  color: var(--pressed-state-color);
 }
 
 .solutions-section,
@@ -101,6 +102,8 @@ footer {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .order-btn,
@@ -108,6 +111,9 @@ footer {
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  font-family: var(--primary-font);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .order-btn {
@@ -125,7 +131,8 @@ footer {
   color: var(--white-background-color);
 }
 
-.order-btn:hover {
+.order-btn:hover,
+.order-btn:focus {
   background-color: var(--pressed-state-color);
 }
 
