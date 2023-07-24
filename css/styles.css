@@ -1,24 +1,130 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
-  --primary-white-color: #fff;
-  --primary-black-color: #2e2f42;
-  --text-color: #434455;
-  --headline-color: #2e2f42;
-  --border-color: #e7e9fc;
-  --primary-accent-color: #f4f4fd;
-  --secondary-accent-color: #404bbf;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-brand-color: #4d5ae5; /* CTAs, focused, active links */
+  --pressed-state-color: #404bbf; /* CTAs */
+  --dark-color: #2e2f42; /* Overlays, Shadows, Headinngs */
+  --success-color: #31d0aa; /* Valid fields, success messages */
+  --text-color: #434455; /* Body text */
+  --subtle-color: #8e8f99; /* Helper text, Deemphasized text*/
+  --accent-color: #e7e9fc; /* Accent color, Hairlines, Subtle backgrounds */
+  --light-color: #f4f4fd; /* Light mode backgrounds, Light mode Dialogs/alerts */
+  --modal-overlay-color: #2e2f42; /* Overlay */
+  --hero-background-color: #2e2f42; /* Hero image background */
+  --white-background-color: #fff; /* Header, team card background,  */
+  --modal-background-color: #fcfcfc; /* Modal background */
 }
 
 body {
   font-family: var(--primary-font);
-  color: var(--primary-black-color);
-  background-color: var(--primary-white-color);
+  color: var(--text-color);
+  background-color: var(--white-background-color);
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-li {
+ul,
+ol {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
+  color: var(--text-color);
+  font-style: normal;
+}
+
+header {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.section-title,
+.cards-title {
+  color: var(--dark-color);
+}
+
+.section-title {
+  font-size: 36px;
+}
+
+.main-title,
+.section-title {
+  line-height: 1.111;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  color: var(--dark-color);
+}
+
+.logo span {
+  color: var(--primary-brand-color);
+}
+
+.navigation .nav-links {
+  color: var(--dark-color);
+  font-weight: 500;
+}
+
+.nav-links:hover,
+.nav-links:focus {
+  color: var(--primary-brand-color);
+}
+
+.solutions-section,
+footer {
+  background-color: var(--dark-color);
+}
+
+.our-team {
+  background-color: var(--light-color);
+}
+
+.main-title {
+  color: var(--white-background-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.order-btn,
+.filters-btn {
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.order-btn {
+  background-color: var(--primary-brand-color);
+  color: var(--white-background-color);
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.filters-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-brand-color);
+}
+
+.filters-btn:active {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
+}
+
+.order-btn:hover {
+  background-color: var(--pressed-state-color);
+}
+
+.cards-title {
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-text {
+  color: var(--light-color);
 }
