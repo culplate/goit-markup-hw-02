@@ -147,6 +147,10 @@ footer {
   background-color: #fff;
 }
 
+.cards-text {
+  letter-spacing: 0.02em;
+}
+
 .team-card {
   background-color: #ffffff;
 }
