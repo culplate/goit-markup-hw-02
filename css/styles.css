@@ -25,21 +25,13 @@ body {
   font-size: 16px;
 }
 
-ul,
-ol {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
+.link {
   color: var(--text-color);
-  font-style: normal;
-}
-
-header {
-  border-bottom: 1px solid var(--accent-color);
+  text-decoration: none;
 }
 
 .section-title,
@@ -59,16 +51,35 @@ header {
 .logo {
   text-transform: uppercase;
   font-family: var(--secondary-font);
+  color: var(--primary-brand-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo .dark-logo {
   color: var(--dark-color);
 }
 
-.logo span {
-  color: var(--primary-brand-color);
+.logo .white-logo {
+  color: var(--light-color);
 }
 
-.navigation .nav-links {
+.contacts {
+  font-style: normal;
+}
+
+.contacts .link {
+  font-weight: 400;
+}
+
+.nav-links {
   color: var(--dark-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-links:hover,
@@ -96,15 +107,12 @@ footer {
 .filters-btn {
   font-size: 16px;
   font-weight: 500;
-  border: none;
   cursor: pointer;
 }
 
 .order-btn {
   background-color: var(--primary-brand-color);
   color: var(--white-background-color);
-  padding: 16px 32px;
-  border-radius: 4px;
 }
 
 .filters-btn {
@@ -128,9 +136,5 @@ footer {
 }
 
 .footer-text {
-  color: var(--light-color);
-}
-
-footer .logo {
   color: var(--light-color);
 }
