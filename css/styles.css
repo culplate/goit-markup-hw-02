@@ -144,4 +144,5 @@ footer {
 
 .footer-text {
   color: var(--light-color);
+  letter-spacing: 0.02em;
 }
